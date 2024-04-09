@@ -207,7 +207,8 @@ class OptimizerWidget(BaseWidget):
         if config.get("colab", False):
             self.edit_args("optimizer_type", "came_pytorch.CAME.CAME")
         else:
-            self.edit_args("optimizer_type", "pytorch_optimizer.optimizer.came.CAME")
+            self.edit_args("optimizer_type", "LoraEasyCustomOptimizer.came.CAME")
+            # self.edit_args("optimizer_type", "pytorch_optimizer.optimizer.came.CAME")
 
     @Slot(bool)
     def enable_disable_warmup(self, checked: bool) -> None:
