@@ -450,6 +450,7 @@ class NetworkWidget(BaseWidget):
                 "lokr": "Lokr",
                 "dylora": "DyLoRA",
                 "diag-oft": "Diag-OFT",
+                "boft": "BOFT",
                 "full": "Full",
             }
             self.widget.algo_select.setCurrentText(algo_modes[network_args["algo"]])
