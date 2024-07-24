@@ -622,7 +622,7 @@
           <property name="text">
            <string>Diag-OFT</string>
           </property>
-         </item>
+		 </item>
 		 <item>
           <property name="text">
            <string>BOFT</string>
